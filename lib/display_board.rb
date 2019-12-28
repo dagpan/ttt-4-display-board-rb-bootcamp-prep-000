@@ -12,7 +12,6 @@ end
 
 
 # Prints a board with an X in the middle position
-
 def display_board(board = [" ", " ", " ", " ", "X", " ", " ", " ", " "])
   puts "  #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
