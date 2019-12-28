@@ -34,9 +34,10 @@ def display_board(board = ["O", " ", " ", " ", " ", " ", " ", " ", " "])
 end
 
 
-# Prints an empty board
+# Prints a board with an O in the top left position and an X in the middle
+# position
 
-def display_board(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
+def display_board(board = ["O", " ", " ", " ", "X", " ", " ", " ", " "])
   puts "  #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
   puts "  #{board[3]} | #{board[4]} | #{board[5]} "
