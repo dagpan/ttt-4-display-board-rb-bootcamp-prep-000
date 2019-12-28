@@ -22,7 +22,6 @@ end
 
   
 # Prints a board with an O in the top left position
-
 def display_board(board = ["O", " ", " ", " ", " ", " ", " ", " ", " "])
   puts "  #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
@@ -34,7 +33,6 @@ end
 
 # Prints a board with an O in the top left position and an X in the middle
 # position
-
 def display_board(board = ["O", " ", " ", " ", "X", " ", " ", " ", " "])
   puts "  #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
